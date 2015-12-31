@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE9810511C349DFA00F59A72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9810501C349DFA00F59A72 /* AppDelegate.swift */; };
+		BE9810531C349DFA00F59A72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9810521C349DFA00F59A72 /* ViewController.swift */; };
+		BE9810561C349DFA00F59A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9810541C349DFA00F59A72 /* Main.storyboard */; };
+		BE9810581C349DFA00F59A72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9810571C349DFA00F59A72 /* Assets.xcassets */; };
+		BE9810601C34A03000F59A72 /* RadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98105F1C34A03000F59A72 /* RadioPlayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE98104D1C349DFA00F59A72 /* inMacRadioTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inMacRadioTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9810501C349DFA00F59A72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE9810521C349DFA00F59A72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE9810551C349DFA00F59A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE9810571C349DFA00F59A72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE9810591C349DFA00F59A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE98105F1C34A03000F59A72 /* RadioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioPlayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE98104A1C349DFA00F59A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE9810441C349DFA00F59A72 = {
+			isa = PBXGroup;
+			children = (
+				BE98104F1C349DFA00F59A72 /* inMacRadioTV */,
+				BE98104E1C349DFA00F59A72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE98104E1C349DFA00F59A72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE98104D1C349DFA00F59A72 /* inMacRadioTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE98104F1C349DFA00F59A72 /* inMacRadioTV */ = {
+			isa = PBXGroup;
+			children = (
+				BE9810501C349DFA00F59A72 /* AppDelegate.swift */,
+				BE98105F1C34A03000F59A72 /* RadioPlayer.swift */,
+				BE9810521C349DFA00F59A72 /* ViewController.swift */,
+				BE9810541C349DFA00F59A72 /* Main.storyboard */,
+				BE9810571C349DFA00F59A72 /* Assets.xcassets */,
+				BE9810591C349DFA00F59A72 /* Info.plist */,
+			);
+			path = inMacRadioTV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE98104C1C349DFA00F59A72 /* inMacRadioTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE98105C1C349DFA00F59A72 /* Build configuration list for PBXNativeTarget "inMacRadioTV" */;
+			buildPhases = (
+				BE9810491C349DFA00F59A72 /* Sources */,
+				BE98104A1C349DFA00F59A72 /* Frameworks */,
+				BE98104B1C349DFA00F59A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = inMacRadioTV;
+			productName = inMacRadioTV;
+			productReference = BE98104D1C349DFA00F59A72 /* inMacRadioTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE9810451C349DFA00F59A72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Gleb Karpushkin";
+				TargetAttributes = {
+					BE98104C1C349DFA00F59A72 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = QHQL7836SK;
+					};
+				};
+			};
+			buildConfigurationList = BE9810481C349DFA00F59A72 /* Build configuration list for PBXProject "inMacRadioTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE9810441C349DFA00F59A72;
+			productRefGroup = BE98104E1C349DFA00F59A72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE98104C1C349DFA00F59A72 /* inMacRadioTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE98104B1C349DFA00F59A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9810581C349DFA00F59A72 /* Assets.xcassets in Resources */,
+				BE9810561C349DFA00F59A72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE9810491C349DFA00F59A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9810601C34A03000F59A72 /* RadioPlayer.swift in Sources */,
+				BE9810531C349DFA00F59A72 /* ViewController.swift in Sources */,
+				BE9810511C349DFA00F59A72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE9810541C349DFA00F59A72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE9810551C349DFA00F59A72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE98105A1C349DFA00F59A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		BE98105B1C349DFA00F59A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE98105D1C349DFA00F59A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = inMacRadioTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eyerise.inMacRadioTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		BE98105E1C349DFA00F59A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = inMacRadioTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eyerise.inMacRadioTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE9810481C349DFA00F59A72 /* Build configuration list for PBXProject "inMacRadioTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE98105A1C349DFA00F59A72 /* Debug */,
+				BE98105B1C349DFA00F59A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE98105C1C349DFA00F59A72 /* Build configuration list for PBXNativeTarget "inMacRadioTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE98105D1C349DFA00F59A72 /* Debug */,
+				BE98105E1C349DFA00F59A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE9810451C349DFA00F59A72 /* Project object */;
+}
